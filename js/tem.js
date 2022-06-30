@@ -1,0 +1,1 @@
+document.getElementById('switch').addEventListener('change', (event) => (event.target.checked) ? document.body.setAttribute('data-theme-style', 'dark') : document.body.removeAttribute('data-theme-style'));

@@ -1,0 +1,202 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat';
+  font-weight: 400;
+  list-style: none;
+}
+ 
+body {
+  background: #fff;
+  color: #313131;
+  font-size: 18px;
+}
+  
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.header {
+  width: 100%;
+  height: 80px;
+  background: #020103;
+  display: flex;
+  align-items: center;
+  padding: 0 150px;
+}
+
+
+.header__menu-burger {
+  display: inline-block;
+  position: relative;
+  width: 50px;
+  height: 50px;
+  background: no-repeat center/100% url("../img/menu.png");
+}
+
+.header__list {
+  position: absolute;
+  margin-top: 15px;
+  top: 100%;
+  left: 0;
+  transform: translateX(-300%);
+  width: auto;
+  height: auto;
+  background-color: #000000;
+  transition: all .4s linear;
+  z-index: 99;
+}
+
+.header__item{
+  font-size: 16px;
+  width: 169px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+
+}
+
+.header__list li:not(:last-child) {
+  margin: 0px 20px 5px 20px;
+
+}
+
+.header__list_show {
+  transform: translateX(0);
+}
+
+.header__logo{
+  margin-left: 428px;
+  margin-top: 10px;
+}
+
+.header_input{
+  margin-right: 20px;
+  margin-left: 320px;
+}
+
+/* Конец шапки */
+
+article {
+    width: 1120px;
+    margin: auto;
+}
+
+p{
+    font-size: 40px;
+    width: 338px;
+    margin: auto;
+    margin-top: 100px;
+}
+
+.str1{
+  display: flex;
+  flex-direction: row;
+  margin-left: -15px;
+  margin-top: 50px;
+}
+
+.piter{
+  margin-left: -15px;
+}
+
+.rgd{
+  margin-left: -15px;
+}
+
+.str2{
+    display: flex;
+    flex-direction: row;
+    margin-left: -15px;
+    margin-top: 25px;
+}
+
+.neft{
+  margin-left: -15px;
+}
+
+.stroi{
+  margin-left: -15px;
+}
+
+.str3{
+  display: flex;
+  flex-direction: row;
+  margin-left: -15px;
+  margin-top: 25px;
+}
+
+.volvo{
+  margin-left: -15px;  
+}
+
+.vb{
+  margin-left: -15px;
+}
+
+.str4{
+  display: flex;
+  flex-direction: row;
+  margin-left: -15px;
+  margin-top: 25px;
+}
+
+.beeline{
+  margin-left: -15px;
+}
+
+.tinek{
+  margin-left: -15px;
+  margin-top: -10px;
+}
+
+.str5{
+  display: flex;
+  flex-direction: row;
+  margin-left: -15px;
+  margin-top: 25px;
+}
+
+.perek{
+  margin-left: -15px;
+}
+
+.merc{
+  margin-left: -15px;
+}
+
+.str6{
+  display: flex;
+  flex-direction: row;
+  margin-left: -15px;
+  margin-top: 25px;
+}
+
+.ozon{
+  margin-left: -15px; 
+}
+
+.samsung{
+  margin-left: -15px;
+  margin-top: -10px;
+}
+
+/*  Подвал   */
+
+.footer{
+  display: flex;
+  justify-content: space-between;
+  background: #020103;
+  width: 100%;
+  padding: 40px 150px 50px;
+  margin-top: 100px;
+
+}
+
+.footer__list{
+  display: grid;
+  gap: 5px 0;
+}
